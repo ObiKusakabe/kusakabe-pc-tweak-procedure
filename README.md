@@ -36,7 +36,15 @@ This personal tweak procedure is made for me, I am not responsible for any failu
   
 >[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSMQ\Parameters]  
 >"TCPNoDelay"=dword:00000001
-5. Priority (https://n1kobg.blogspot.com/p/blog-page_23.html)  
+5. Priority (https://n1kobg.blogspot.com/p/blog-page_23.html)
+>[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Audio]  
+>"Affinity"=dword:00000007  
+>"Background Only"="True"  
+>"Clock Rate"=dword:00002710  
+>"GPU Priority"=dword:00000008  
+>"Priority"=dword:00000006  
+>"Scheduling Category"="Medium"  
+>"SFIO Priority"="Normal"  
 >[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games]  
 >"Affinity"=dword:00000000  
 >"Background Only"="False"  
