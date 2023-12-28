@@ -1,13 +1,13 @@
-# My Personal PC Tweaks Procedure
+# My Personal PC Tweak Procedure
 
 Disclaimer:
 
-This is my personal windows 10 tweaks procedure, I want to make it clear that I am not the owner of, nor do I claim ownership of, any of the original tweak files utilized in this repository. The purpose of this repository is to store all my personal pc tweak and procedure which is what I usually do after installing a fresh installation of windows 10. All credits and rights for the original tweak files go to their respective owners and creators.
+This is my personal windows 10 tweak procedure, I want to make it clear that I am not the owner of, nor do I claim ownership of, any of the original tweak files utilized in this repository. The purpose of this repository is to store all my personal pc tweak and procedure which is what I usually do after installing a fresh installation of windows 10. All credits and rights for the original tweak files go to their respective owners and creators.
 
 This is just a small tweak as most of it has already been done by Atlas OS. 
 This personal tweak procedure is made for me, I am not responsible for any failures, errors, or issues that may arise as a result of your use of this procedure, so do at your own risk.
 
-# Procedure
+# Tweak Procedure
 
 ### After a fresh installation of win10 Atlas OS
 1.  DDU uninstall driver
