@@ -15,8 +15,8 @@ This personal tweak procedure is made for me, I am not responsible for any failu
 3.  Tweak control panel and [nvidiaProfileInspector](https://github.com/Orbmu2k/nvidiaProfileInspector/releases)
 4.  Install [Process Lasso](https://bitsum.com/get-lasso-pro/)
 5.  Install [ParkControl](https://bitsum.com/parkcontrol/)
-6.  [MSI Utility v3](https://forums.guru3d.com/threads/windows-line-based-vs-message-signaled-based-interrupts-msi-tool.378044/)
-7.  Install [Microsoft Interrupt Affinity Tool](https://www.techpowerup.com/download/microsoft-interrupt-affinity-tool/) (set mouse-keyboard-ethernet to core 2, set gpu to core 3 (note: cores start from 0))
+6.  set the gpu interrupt priority to high using [MSI Utility v3](https://forums.guru3d.com/threads/windows-line-based-vs-message-signaled-based-interrupts-msi-tool.378044/)
+7.  set mouse-keyboard-ethernet to core 2, set gpu to core 3  using [Microsoft Interrupt Affinity Tool](https://www.techpowerup.com/download/microsoft-interrupt-affinity-tool/) (note: cores start from 0)
 8.  Set power profile to atlas
 9.  PowerSettingsExplorer
 10. Timer resolution (check measure sleep)
