@@ -15,7 +15,7 @@ This personal tweak procedure is made for me, I am not responsible for any failu
 3.  Tweak nvidia profile inspector also control panel
 4.  Install process lasso
 5.  Install park control
-6.  MSI utility v3
+6.  ([MSI Utility v3](https://forums.guru3d.com/threads/windows-line-based-vs-message-signaled-based-interrupts-msi-tool.378044/))
 7.  Interrupt Affinity Policy Tool (set mouse-keyboard-ethernet to core 2, set gpu to core 3 (note: cores start from 0))
 8.  Set power profile to atlas
 9.  PowerSettingsExplorer
