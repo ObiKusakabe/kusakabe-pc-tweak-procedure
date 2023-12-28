@@ -29,26 +29,24 @@ This personal tweak procedure is made for me, I am not responsible for any failu
 >[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Input\Settings\ControllerProcessor\CursorSpeed]  
 >"CursorUpdateInterval"=dword:00000001
 4. internet Nagle's Algorithm Tweak (https://n1kobg.blogspot.com/p/blog-page_23.html)
-```
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{Your NIC's GUID}]  
-"TcpAckFrequency"=dword:00000001
-"TcpDelAckTicks"=dword:00000000
-"TCPNoDelay"=dword:00000001
-```
-```
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSMQ\Parameters]  
-"TCPNoDelay"=dword:00000001
+>[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{Your NIC's GUID}]  
+>"TcpAckFrequency"=dword:00000001
+>"TcpDelAckTicks"=dword:00000000
+>"TCPNoDelay"=dword:00000001
+  
+>[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSMQ\Parameters]  
+>"TCPNoDelay"=dword:00000001
 5. Priority (https://n1kobg.blogspot.com/p/blog-page_23.html)  
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games]  
-"Affinity"=dword:00000000
-"Background Only"="False"
-"Clock Rate"=dword:00002710
-"GPU Priority"=dword:00000012
-"Priority"=dword:00000006
-"Scheduling Category"="High"
-"SFIO Priority"="High"
-"Latency Sensitive"="True"
-```
+>[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games]  
+>"Affinity"=dword:00000000
+>"Background Only"="False"
+>"Clock Rate"=dword:00002710
+>"GPU Priority"=dword:00000012
+>"Priority"=dword:00000006
+>"Scheduling Category"="High"
+>"SFIO Priority"="High"
+>"Latency Sensitive"="True"
+
 ### CMD run as Admin
 1. Disable Power Saving.cmd (atlas folder)
 2. Disable Sleep.cmd (atlas folder)
