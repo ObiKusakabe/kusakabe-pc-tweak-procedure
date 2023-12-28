@@ -44,7 +44,19 @@ This personal tweak procedure is made for me, I am not responsible for any failu
 >"GPU Priority"=dword:00000008  
 >"Priority"=dword:00000006  
 >"Scheduling Category"="Medium"  
->"SFIO Priority"="Normal"  
+>"SFIO Priority"="Normal"
+
+>[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\DisplayPostProcessing]  
+>"Affinity"=dword:00000000  
+>"Background Only"="True"  
+>"BackgroundPriority"=dword:00000018  
+>"Clock Rate"=dword:00002710  
+>"GPU Priority"=dword:00000012  
+>"Priority"=dword:00000008  
+>"Scheduling Category"="High"  
+>"SFIO Priority"="High"  
+>"Latency Sensitive"="True"  
+  
 >[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games]  
 >"Affinity"=dword:00000000  
 >"Background Only"="False"  
