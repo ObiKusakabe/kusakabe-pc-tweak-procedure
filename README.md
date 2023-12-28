@@ -11,24 +11,24 @@ This personal tweak procedure is made for me, I am not responsible for any failu
 
 ### After a fresh installation of win10 Atlas OS
 1.  DDU uninstall driver
-2.  install tweaked nvidia driver (nvcleanstall)
-3.  tweak nvidia profile inspector also control panel
-4.  install process lasso
-5.  install park control
+2.  Install tweaked nvidia driver (nvcleanstall)
+3.  Tweak nvidia profile inspector also control panel
+4.  Install process lasso
+5.  Install park control
 6.  MSI utility v3
 7.  Interrupt Affinity Policy Tool (set mouse-keyboard-ethernet to core 2, set gpu to core 3 (note: cores start from 0))
-8.  set power profile to atlas
+8.  Set power profile to atlas
 9.  PowerSettingsExplorer
-10. timer resolution (check measure sleep)
-11. disable windows game mode
+10. Timer resolution (check measure sleep)
+11. Disable windows game mode
 
 ### Registry (!!DON'T FORGET MAKE A REGISTRY BACKUP!!)
-1. run disable FSO & Game Bar Support.reg (atlas folder)
+1. Run disable FSO & Game Bar Support.reg (atlas folder)
 2. Enable System Restore.reg (atlas folder)
-3. mouse latency (https://n1kobg.blogspot.com/p/blog-page_23.html)
+3. Mouse latency (https://n1kobg.blogspot.com/p/blog-page_23.html)
 >[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Input\Settings\ControllerProcessor\CursorSpeed]  
 >"CursorUpdateInterval"=dword:00000001
-4. internet Nagle's Algorithm Tweak (https://n1kobg.blogspot.com/p/blog-page_23.html)
+4. Internet Nagle's Algorithm Tweak (https://n1kobg.blogspot.com/p/blog-page_23.html)
 >[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{Your NIC's GUID}]  
 >"TcpAckFrequency"=dword:00000001
 >"TcpDelAckTicks"=dword:00000000
@@ -50,7 +50,7 @@ This personal tweak procedure is made for me, I am not responsible for any failu
 ### CMD run as Admin
 1. Disable Power Saving.cmd (atlas folder)
 2. Disable Sleep.cmd (atlas folder)
-3. try timer resolution!!!!!!!!!!!!! (check measure sleep)
+3. Try timer resolution (check measure sleep)
    
 
 ### Optional
