@@ -70,10 +70,10 @@ This personal tweak procedure is made for me, I am not responsible for any failu
 ### CMD run as Admin
 1. Disable Power Saving.cmd (atlas folder)
 2. Disable Sleep.cmd (atlas folder)
-3. Try timer resolution (check measure sleep)
+3. Try [TimerResolution](https://github.com/amitxv/TimerResolution) (check measure sleep)
    
 
 ### Optional
-1. Check latency by using latency mon software
+1. Check latency by using [LatencyMon](https://www.resplendence.com/latencymon) software
 2. Enable printing.cmd (atlas folder)
 3. Check atlas folder 
