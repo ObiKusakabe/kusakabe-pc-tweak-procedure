@@ -10,12 +10,12 @@ This personal tweak procedure is made for me, I am not responsible for any failu
 # Tweak Procedure
 
 ### After a fresh installation of win10 Atlas OS
-1.  DDU uninstall driver
-2.  Install tweaked nvidia driver (nvcleanstall)
+1.  uninstall driver using [DDU](https://www.guru3d.com/download/display-driver-uninstaller-download/) 
+2.  Install tweaked nvidia driver [nvcleanstall](https://www.techpowerup.com/download/techpowerup-nvcleanstall/)
 3.  Tweak nvidia profile inspector also control panel
 4.  Install process lasso
 5.  Install park control
-6.  ([MSI Utility v3](https://forums.guru3d.com/threads/windows-line-based-vs-message-signaled-based-interrupts-msi-tool.378044/))
+6.  [MSI Utility v3](https://forums.guru3d.com/threads/windows-line-based-vs-message-signaled-based-interrupts-msi-tool.378044/)
 7.  Interrupt Affinity Policy Tool (set mouse-keyboard-ethernet to core 2, set gpu to core 3 (note: cores start from 0))
 8.  Set power profile to atlas
 9.  PowerSettingsExplorer
