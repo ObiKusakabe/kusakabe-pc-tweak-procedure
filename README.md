@@ -7,9 +7,7 @@ This is my personal windows 10 tweak procedure, I want to make it clear that I a
 This is just a small tweak as most of it has already been done by Atlas OS. 
 This personal tweak procedure is made for me, I am not responsible for any failures, errors, or issues that may arise as a result of your use of this procedure, so do at your own risk.
 
-# Tweak Procedure
-
-### After a fresh installation of win10 Atlas OS
+### Tweak Procedure
 1.  Uninstall driver using [Display Driver Uninstaller (DDU)](https://www.guru3d.com/download/display-driver-uninstaller-download/) 
 2.  Install tweaked nvidia driver using [NVCleanstall](https://www.techpowerup.com/download/techpowerup-nvcleanstall/)
 3.  Tweak control panel and [nvidiaProfileInspector](https://github.com/Orbmu2k/nvidiaProfileInspector/releases)
