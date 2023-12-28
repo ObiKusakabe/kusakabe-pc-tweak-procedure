@@ -26,13 +26,16 @@ This personal tweak procedure is made for me, I am not responsible for any failu
 1. run disable FSO & Game Bar Support.reg (atlas folder)
 2. Enable System Restore.reg (atlas folder)
 3. mouse latency (https://n1kobg.blogspot.com/p/blog-page_23.html)
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Input\Settings\ControllerProcessor\CursorSpeed]  
-"CursorUpdateInterval"=dword:00000001
+>[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Input\Settings\ControllerProcessor\CursorSpeed]  
+>"CursorUpdateInterval"=dword:00000001
 4. internet Nagle's Algorithm Tweak (https://n1kobg.blogspot.com/p/blog-page_23.html)
+```
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{Your NIC's GUID}]  
 "TcpAckFrequency"=dword:00000001
 "TcpDelAckTicks"=dword:00000000
 "TCPNoDelay"=dword:00000001
+```
+```
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSMQ\Parameters]  
 "TCPNoDelay"=dword:00000001
 5. Priority (https://n1kobg.blogspot.com/p/blog-page_23.html)  
@@ -45,7 +48,7 @@ This personal tweak procedure is made for me, I am not responsible for any failu
 "Scheduling Category"="High"
 "SFIO Priority"="High"
 "Latency Sensitive"="True"
-
+```
 ### CMD run as Admin
 1. Disable Power Saving.cmd (atlas folder)
 2. Disable Sleep.cmd (atlas folder)
