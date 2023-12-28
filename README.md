@@ -30,9 +30,9 @@ This personal tweak procedure is made for me, I am not responsible for any failu
 >"CursorUpdateInterval"=dword:00000001
 4. Internet Nagle's Algorithm Tweak (https://n1kobg.blogspot.com/p/blog-page_23.html)
 >[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{Your NIC's GUID}]  
->"TcpAckFrequency"=dword:00000001
->"TcpDelAckTicks"=dword:00000000
->"TCPNoDelay"=dword:00000001
+>"TcpAckFrequency"=dword:00000001  
+>"TcpDelAckTicks"=dword:00000000  
+>"TCPNoDelay"=dword:00000001  
   
 >[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSMQ\Parameters]  
 >"TCPNoDelay"=dword:00000001
