@@ -16,7 +16,7 @@ This personal tweak procedure is made for me, I am not responsible for any failu
 4.  install process lasso
 5.  install park control
 6.  MSI utility v3
-7.  Interrupt Affinity Policy Tool (set mouse-keyboard-ethernet to core 2, set gpu to core 3 (0 1 2 3))
+7.  Interrupt Affinity Policy Tool (set mouse-keyboard-ethernet to core 2, set gpu to core 3 (note: cores start from 0))
 8.  set power profile to atlas
 9.  PowerSettingsExplorer
 10. timer resolution (check measure sleep)
