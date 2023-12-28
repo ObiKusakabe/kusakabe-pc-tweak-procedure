@@ -10,8 +10,8 @@ This personal tweak procedure is made for me, I am not responsible for any failu
 # Tweak Procedure
 
 ### After a fresh installation of win10 Atlas OS
-1.  uninstall driver using [DDU](https://www.guru3d.com/download/display-driver-uninstaller-download/) 
-2.  Install tweaked nvidia driver using [nvcleanstall](https://www.techpowerup.com/download/techpowerup-nvcleanstall/)
+1.  Uninstall driver using [Display Driver Uninstaller (DDU)](https://www.guru3d.com/download/display-driver-uninstaller-download/) 
+2.  Install tweaked nvidia driver using [NVCleanstall](https://www.techpowerup.com/download/techpowerup-nvcleanstall/)
 3.  Tweak control panel and [nvidiaProfileInspector](https://github.com/Orbmu2k/nvidiaProfileInspector/releases)
 4.  Install [Process Lasso](https://bitsum.com/get-lasso-pro/)
 5.  Install [ParkControl](https://bitsum.com/parkcontrol/)
