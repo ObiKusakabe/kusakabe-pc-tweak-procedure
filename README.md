@@ -1,4 +1,4 @@
-# My Personal PC Tweaks Procedure
+# My Personal Windows 10 Tweaks Procedure
 
 Disclaimer:
 
