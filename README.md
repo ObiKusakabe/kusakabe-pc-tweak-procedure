@@ -1,8 +1,8 @@
-# My Personal PC Tweak Procedure
+# Kusakabe's PC Tweak Procedure
 
 Disclaimer:
 
-This is my personal windows 10 tweak procedure, I want to make it clear that I am not the owner of, nor do I claim ownership of, any of the original tweak files utilized in this repository. The purpose of this repository is to store all files needed to tweak my pc and tweak procedure which is what I usually do after installing a fresh installation of windows 10. All credits and rights for the original tweak files go to their respective owners and creators.
+The purpose of this repository is to store all files needed to tweak my pc and tweak procedure which is what I usually do after installing a fresh installation of windows 10. All credits and rights for the original tweak files go to their respective owners and creators.
 
 This is just a small tweak as most of it has already been done by Atlas OS. 
 This personal tweak procedure is made for me, I am not responsible for any failures, errors, or issues that may arise as a result of your use of this procedure, so do at your own risk.
