@@ -73,5 +73,5 @@ This personal tweak procedure is made for me, I am not responsible for any failu
 ### Optional
 1. Check latency by using [LatencyMon](https://www.resplendence.com/latencymon) software
 2. Enable printing.cmd (atlas folder)
-3. Check atlas folder
+3. Check atlasOS folder
 4. Try [TimerResolution](https://github.com/amitxv/TimerResolution) (also check "measure sleep" because timerResolution won't work on Windows 10 2004 and higher version, but i've heard it work windows 11)
