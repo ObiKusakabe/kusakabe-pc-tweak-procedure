@@ -23,10 +23,10 @@ This personal tweak procedure is made for me, I am not responsible for any failu
 ### Registry (!!DON'T FORGET MAKE A REGISTRY BACKUP!!)
 1. Run disable FSO & Game Bar Support.reg (atlasOS folder)
 2. Enable System Restore.reg (atlasOS folder)
-3. Mouse latency (https://n1kobg.blogspot.com/p/blog-page_23.html)
+3. Mouse latency [About: https://n1kobg.blogspot.com/p/blog-page_23.html]
 >[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Input\Settings\ControllerProcessor\CursorSpeed]  
 >"CursorUpdateInterval"=dword:00000001
-4. Internet Nagle's Algorithm Tweak (https://n1kobg.blogspot.com/p/blog-page_23.html)
+4. Internet Nagle's Algorithm Tweak [About: https://n1kobg.blogspot.com/p/blog-page_23.html]
 >[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{Your NIC's GUID}]  
 >"TcpAckFrequency"=dword:00000001  
 >"TcpDelAckTicks"=dword:00000000  
@@ -34,7 +34,7 @@ This personal tweak procedure is made for me, I am not responsible for any failu
   
 >[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSMQ\Parameters]  
 >"TCPNoDelay"=dword:00000001
-5. Priority (https://n1kobg.blogspot.com/p/blog-page_23.html)
+5. Priority [About: https://n1kobg.blogspot.com/p/blog-page_23.html]
 >[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Audio]  
 >"Affinity"=dword:00000007  
 >"Background Only"="True"  
