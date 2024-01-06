@@ -15,10 +15,10 @@ This personal tweak procedure is made for me, I am not responsible for any failu
 5.  Install [ParkControl](https://bitsum.com/parkcontrol/)
 6.  set the gpu interrupt priority to high using [MSI Utility v3](https://forums.guru3d.com/threads/windows-line-based-vs-message-signaled-based-interrupts-msi-tool.378044/)
 7.  set mouse-keyboard-ethernet to core 2, set gpu to core 3  using [Microsoft Interrupt Affinity Tool](https://www.techpowerup.com/download/microsoft-interrupt-affinity-tool/) (note: cores start from 0)
-8.  Set power profile to default/atlasOS power plan
+8.  Set power profile to default/atlasOS power plan (windows settings)
 9.  set your current active power plan scheme AC value to 5000 in the "Processor performance time check interval" setting which is in the "Processor power management" subgroup using [PowerSettingsExplorer](https://forums.guru3d.com/threads/windows-power-plan-settings-explorer-utility.416058/)
 10. Timer resolution (check measure sleep)
-11. Disable windows game mode
+11. Disable windows game mode (windows settings)
 
 ### Registry (!!DON'T FORGET MAKE A REGISTRY BACKUP!!)
 1. Run disable FSO & Game Bar Support.reg (atlasOS folder)
@@ -66,8 +66,8 @@ This personal tweak procedure is made for me, I am not responsible for any failu
 >"Latency Sensitive"="True"  
 
 ### CMD run as Admin
-1. Disable Power Saving.cmd (atlas folder)
-2. Disable Sleep.cmd (atlas folder)
+1. Disable Power Saving.cmd (atlasOS folder)
+2. Disable Sleep.cmd (atlasOS folder)
    
 
 ### Optional
